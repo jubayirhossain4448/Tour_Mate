@@ -32,4 +32,32 @@
         android:drawableLeft="@drawable/ic_account_circle_black_24dp"
         android:layout_margin="10dp"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Passsword"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Repeat Password"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:layout_margin="10dp"/>
+
 </LinearLayout>
