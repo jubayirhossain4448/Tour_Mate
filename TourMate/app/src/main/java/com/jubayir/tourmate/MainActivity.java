@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.jubayir.tourmate.login.SigninActivity;
+import com.jubayir.tourmate.login.SignupActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,5 +23,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void singUp(View view) {
+        startActivity(new Intent(MainActivity.this, SignupActivity.class));
     }
 }
