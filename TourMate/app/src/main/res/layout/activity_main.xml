@@ -18,4 +18,13 @@
         android:text="Next"
         android:onClick="next"/>
 
+    <Button
+        android:id="@+id/singUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Sign"
+        android:onClick="singUp"/>
+
 </LinearLayout>

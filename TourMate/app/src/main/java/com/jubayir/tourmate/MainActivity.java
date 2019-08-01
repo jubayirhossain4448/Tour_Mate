@@ -20,4 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public void next(View view) {
         startActivity(new Intent(MainActivity.this, SigninActivity.class));
     }
+
+    public void singUp(View view) {
+    }
 }
