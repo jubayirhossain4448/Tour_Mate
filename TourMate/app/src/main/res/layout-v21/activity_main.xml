@@ -8,11 +8,11 @@
     android:layout_gravity="center"
     android:gravity="center"
     tools:context=".MainActivity">
-
+    
     <Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
+        
     </Toolbar>
 
     <Button
